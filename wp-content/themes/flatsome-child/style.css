@@ -8,9 +8,45 @@ Version: 3.0
 
 /*************** ADD CUSTOM CSS HERE.   ***************/
 
+.box-image {
+    border: 1px solid #ccc;
+
+}
+#header .header-main,#header .stuck .header-main {
+    height: 120px !important;
+    padding: 15px 0;
+}
+.nav-dropdown {
+    position: static;
+    padding: 0;
+    border: 0;
+    opacity: 1;
+    width: 100%;
+    background: none;
+}
+/*.header-inner{*/
+/*    padding: 15px 0;*/
+/*}*/
+.header-inner form{
+    margin-bottom: 0 !important;
+}
+
+.header-button {
+    display: none !important;
+}
+.flex{
+    display: flex;
+}
+
+.search-box{
+    flex-grow: 2;
+}
+.search-box ul{
+    list-style: none;
+}
 
 @media only screen and (max-width: 48em) {
-/*************** ADD MOBILE ONLY CSS HERE  ***************/
+    /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
 
 }
