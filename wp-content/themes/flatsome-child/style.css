@@ -53,16 +53,28 @@ Version: 3.0
 .header-nav {
     background-color: rgb(0, 72, 61);
     border-radius: 5px;
+    justify-content: space-around;
 }
 
-.header-nav li > a, .nav > li.active > a {
+.header-nav li > a, .header-nav > li.active > a {
     color: white;
     padding-left: 10px;
 }
 .nav>li>a:hover{
     color: rgb(255 119 119 / 85%);
 }
-
+.tabbed-content .nav>li.active>a{
+    color: black !important;
+}
+.processing:before{
+    display: none !important;
+}
+.wpcf7 form.sent .wpcf7-response-output {
+    color: white;
+    padding: 0;
+    border: none;
+    margin: 0;
+}
 @media only screen and (max-width: 48em) {
     /*************** ADD MOBILE ONLY CSS HERE  ***************/
 
